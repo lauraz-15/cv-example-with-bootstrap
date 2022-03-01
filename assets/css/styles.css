@@ -10,11 +10,26 @@ header {
     margin-left: 50px;
 }
 
+/*  -------------------------------------------- Colors */
 .bg-color-name-title {
     background-color: #676767;
 }
 
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
 
+.ui-menu-color-resume {
+    background-color: #FCC66E;
+}
+
+.ui-menu-color-contact {
+    background-color: #A5F3E1;
+}
+
+.ui-menu-color-download {
+    background-color: #EEA5F3;
+}
 .logo {
     background: url(../images/rosie.jpeg);
     background-position: center;
@@ -40,4 +55,59 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainerclass {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height 120px;
+}
+
+.menuitem i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*  -------------------------------------------- Hover CSS */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
